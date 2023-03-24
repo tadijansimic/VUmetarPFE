@@ -1,0 +1,35 @@
+module clk25M
+(
+		input clk,
+		output reg on
+);
+
+	reg [1:0] brojac;
+
+	always @(posedge clk)
+		begin
+		brojac = brojac + 1;
+		if(brojac == 2) begin
+			on = !on;
+			brojac = 0;
+		end
+	end
+
+endmodule
+
+module clk500K
+(
+    input clk,
+    output reg on
+);
+
+	reg [6:0] brojac;
+
+	always @(posedge clk) begin
+		brojac = brojac + 1;
+		if(brojac == 100) begin
+			on = !on;
+			brojac = 0;
+		end
+	end
+endmodule

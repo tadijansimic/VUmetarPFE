@@ -1,0 +1,8 @@
+module readSerial 
+(
+	input lastDigit,
+	inout counter,
+	output reg [11:0] num
+); 
+
+endmodule
