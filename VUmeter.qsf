@@ -108,17 +108,7 @@ set_location_assignment PIN_Y21 -to ADC_CONVST
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VERILOG_FILE VUmeter.v
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
-set_global_assignment -name ENABLE_SIGNALTAP ON
-set_global_assignment -name USE_SIGNALTAP_FILE stp1.stp
-set_global_assignment -name VERILOG_FILE single_hex_interface.v
-set_global_assignment -name VERILOG_FILE seven_segment_interface.v
-set_global_assignment -name VERILOG_FILE VUmeter.v
-set_global_assignment -name VERILOG_FILE readSerial.v
-set_global_assignment -name VERILOG_FILE output_files/clocks.v
-set_global_assignment -name VERILOG_FILE faza.v
-set_global_assignment -name SIGNALTAP_FILE stp1.stp
-set_global_assignment -name VECTOR_WAVEFORM_FILE ../../Documents/Waveform.vwf
-set_global_assignment -name VERILOG_FILE ../../Documents/svetla.v
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

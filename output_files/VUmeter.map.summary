@@ -1,13 +1,13 @@
-Analysis & Synthesis Status : Successful - Fri Mar 24 12:16:06 2023
+Analysis & Synthesis Status : Successful - Wed Mar 29 09:51:13 2023
 Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 Revision Name : VUmeter
 Top-level Entity Name : VUmeter
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 773
-Total pins : 61
+Total registers : 0
+Total pins : 57
 Total virtual pins : 0
-Total block memory bits : 786,432
+Total block memory bits : 0
 Total DSP Blocks : 0
 Total HSSI RX PCSs : 0
 Total HSSI PMA RX Deserializers : 0
