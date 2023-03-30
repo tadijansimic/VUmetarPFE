@@ -1,5 +1,5 @@
 Analysis & Synthesis report for VUmeter
-Wed Mar 29 09:51:13 2023
+Wed Mar 29 23:56:40 2023
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -43,7 +43,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +---------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Wed Mar 29 09:51:13 2023          ;
+; Analysis & Synthesis Status     ; Successful - Wed Mar 29 23:56:40 2023          ;
 ; Quartus Prime Version           ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                   ; VUmeter                                        ;
 ; Top-level Entity Name           ; VUmeter                                        ;
@@ -166,13 +166,13 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                    ;
-+----------------------------------+-----------------+------------------------+---------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                      ; Library ;
-+----------------------------------+-----------------+------------------------+---------------------------------------------------+---------+
-; VUmeter.v                        ; yes             ; User Verilog HDL File  ; C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v ;         ;
-+----------------------------------+-----------------+------------------------+---------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                   ;
++----------------------------------+-----------------+------------------------+----------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path     ; Library ;
++----------------------------------+-----------------+------------------------+----------------------------------+---------+
+; VUmeter.v                        ; yes             ; User Verilog HDL File  ; C:/Projects/VUmetarPFE/VUmeter.v ;         ;
++----------------------------------+-----------------+------------------------+----------------------------------+---------+
 
 
 +--------------------------------------------------------+
@@ -257,92 +257,91 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Wed Mar 29 09:51:07 2023
+    Info: Processing started: Wed Mar 29 23:56:33 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off VUmeter -c VUmeter
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file vumeter.v
-    Info (12023): Found entity 1: VUmeter File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 1
+    Info (12023): Found entity 1: VUmeter File: C:/Projects/VUmetarPFE/VUmeter.v Line: 1
 Info (12127): Elaborating entity "VUmeter" for the top level hierarchy
-Warning (10034): Output port "HEX0" at VUmeter.v(10) has no driver File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 10
-Warning (10034): Output port "HEX1" at VUmeter.v(11) has no driver File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 11
-Warning (10034): Output port "HEX2" at VUmeter.v(12) has no driver File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 12
-Warning (10034): Output port "HEX3" at VUmeter.v(13) has no driver File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 13
-Warning (10034): Output port "HEX4" at VUmeter.v(14) has no driver File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 14
-Warning (10034): Output port "HEX5" at VUmeter.v(15) has no driver File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 15
-Warning (10034): Output port "LED" at VUmeter.v(17) has no driver File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 17
-Warning (10034): Output port "ADC_SCLK" at VUmeter.v(5) has no driver File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 5
-Warning (10034): Output port "ADC_DIN" at VUmeter.v(6) has no driver File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 6
-Warning (10034): Output port "ADC_CONVST" at VUmeter.v(8) has no driver File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 8
-Warning (12158): Entity "VUmeter" contains only dangling pins
+Warning (10034): Output port "HEX0" at VUmeter.v(10) has no driver File: C:/Projects/VUmetarPFE/VUmeter.v Line: 10
+Warning (10034): Output port "HEX1" at VUmeter.v(11) has no driver File: C:/Projects/VUmetarPFE/VUmeter.v Line: 11
+Warning (10034): Output port "HEX2" at VUmeter.v(12) has no driver File: C:/Projects/VUmetarPFE/VUmeter.v Line: 12
+Warning (10034): Output port "HEX3" at VUmeter.v(13) has no driver File: C:/Projects/VUmetarPFE/VUmeter.v Line: 13
+Warning (10034): Output port "HEX4" at VUmeter.v(14) has no driver File: C:/Projects/VUmetarPFE/VUmeter.v Line: 14
+Warning (10034): Output port "HEX5" at VUmeter.v(15) has no driver File: C:/Projects/VUmetarPFE/VUmeter.v Line: 15
+Warning (10034): Output port "LED" at VUmeter.v(17) has no driver File: C:/Projects/VUmetarPFE/VUmeter.v Line: 17
+Warning (10034): Output port "ADC_SCLK" at VUmeter.v(5) has no driver File: C:/Projects/VUmetarPFE/VUmeter.v Line: 5
+Warning (10034): Output port "ADC_DIN" at VUmeter.v(6) has no driver File: C:/Projects/VUmetarPFE/VUmeter.v Line: 6
+Warning (10034): Output port "ADC_CONVST" at VUmeter.v(8) has no driver File: C:/Projects/VUmetarPFE/VUmeter.v Line: 8
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "ADC_SCLK" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 5
-    Warning (13410): Pin "ADC_DIN" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 6
-    Warning (13410): Pin "ADC_CONVST" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 8
-    Warning (13410): Pin "HEX0[0]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 10
-    Warning (13410): Pin "HEX0[1]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 10
-    Warning (13410): Pin "HEX0[2]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 10
-    Warning (13410): Pin "HEX0[3]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 10
-    Warning (13410): Pin "HEX0[4]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 10
-    Warning (13410): Pin "HEX0[5]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 10
-    Warning (13410): Pin "HEX0[6]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 10
-    Warning (13410): Pin "HEX1[0]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 11
-    Warning (13410): Pin "HEX1[1]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 11
-    Warning (13410): Pin "HEX1[2]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 11
-    Warning (13410): Pin "HEX1[3]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 11
-    Warning (13410): Pin "HEX1[4]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 11
-    Warning (13410): Pin "HEX1[5]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 11
-    Warning (13410): Pin "HEX1[6]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 11
-    Warning (13410): Pin "HEX2[0]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 12
-    Warning (13410): Pin "HEX2[1]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 12
-    Warning (13410): Pin "HEX2[2]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 12
-    Warning (13410): Pin "HEX2[3]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 12
-    Warning (13410): Pin "HEX2[4]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 12
-    Warning (13410): Pin "HEX2[5]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 12
-    Warning (13410): Pin "HEX2[6]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 12
-    Warning (13410): Pin "HEX3[0]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 13
-    Warning (13410): Pin "HEX3[1]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 13
-    Warning (13410): Pin "HEX3[2]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 13
-    Warning (13410): Pin "HEX3[3]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 13
-    Warning (13410): Pin "HEX3[4]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 13
-    Warning (13410): Pin "HEX3[5]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 13
-    Warning (13410): Pin "HEX3[6]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 13
-    Warning (13410): Pin "HEX4[0]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 14
-    Warning (13410): Pin "HEX4[1]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 14
-    Warning (13410): Pin "HEX4[2]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 14
-    Warning (13410): Pin "HEX4[3]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 14
-    Warning (13410): Pin "HEX4[4]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 14
-    Warning (13410): Pin "HEX4[5]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 14
-    Warning (13410): Pin "HEX4[6]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 14
-    Warning (13410): Pin "HEX5[0]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 15
-    Warning (13410): Pin "HEX5[1]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 15
-    Warning (13410): Pin "HEX5[2]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 15
-    Warning (13410): Pin "HEX5[3]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 15
-    Warning (13410): Pin "HEX5[4]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 15
-    Warning (13410): Pin "HEX5[5]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 15
-    Warning (13410): Pin "HEX5[6]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 15
-    Warning (13410): Pin "LED[0]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 17
-    Warning (13410): Pin "LED[1]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 17
-    Warning (13410): Pin "LED[2]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 17
-    Warning (13410): Pin "LED[3]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 17
-    Warning (13410): Pin "LED[4]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 17
-    Warning (13410): Pin "LED[5]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 17
-    Warning (13410): Pin "LED[6]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 17
-    Warning (13410): Pin "LED[7]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 17
-    Warning (13410): Pin "LED[8]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 17
-    Warning (13410): Pin "LED[9]" is stuck at GND File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 17
+    Warning (13410): Pin "ADC_SCLK" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 5
+    Warning (13410): Pin "ADC_DIN" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 6
+    Warning (13410): Pin "ADC_CONVST" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 8
+    Warning (13410): Pin "HEX0[0]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 10
+    Warning (13410): Pin "HEX0[1]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 10
+    Warning (13410): Pin "HEX0[2]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 10
+    Warning (13410): Pin "HEX0[3]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 10
+    Warning (13410): Pin "HEX0[4]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 10
+    Warning (13410): Pin "HEX0[5]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 10
+    Warning (13410): Pin "HEX0[6]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 10
+    Warning (13410): Pin "HEX1[0]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 11
+    Warning (13410): Pin "HEX1[1]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 11
+    Warning (13410): Pin "HEX1[2]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 11
+    Warning (13410): Pin "HEX1[3]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 11
+    Warning (13410): Pin "HEX1[4]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 11
+    Warning (13410): Pin "HEX1[5]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 11
+    Warning (13410): Pin "HEX1[6]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 11
+    Warning (13410): Pin "HEX2[0]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 12
+    Warning (13410): Pin "HEX2[1]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 12
+    Warning (13410): Pin "HEX2[2]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 12
+    Warning (13410): Pin "HEX2[3]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 12
+    Warning (13410): Pin "HEX2[4]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 12
+    Warning (13410): Pin "HEX2[5]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 12
+    Warning (13410): Pin "HEX2[6]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 12
+    Warning (13410): Pin "HEX3[0]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 13
+    Warning (13410): Pin "HEX3[1]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 13
+    Warning (13410): Pin "HEX3[2]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 13
+    Warning (13410): Pin "HEX3[3]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 13
+    Warning (13410): Pin "HEX3[4]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 13
+    Warning (13410): Pin "HEX3[5]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 13
+    Warning (13410): Pin "HEX3[6]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 13
+    Warning (13410): Pin "HEX4[0]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 14
+    Warning (13410): Pin "HEX4[1]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 14
+    Warning (13410): Pin "HEX4[2]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 14
+    Warning (13410): Pin "HEX4[3]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 14
+    Warning (13410): Pin "HEX4[4]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 14
+    Warning (13410): Pin "HEX4[5]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 14
+    Warning (13410): Pin "HEX4[6]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 14
+    Warning (13410): Pin "HEX5[0]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 15
+    Warning (13410): Pin "HEX5[1]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 15
+    Warning (13410): Pin "HEX5[2]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 15
+    Warning (13410): Pin "HEX5[3]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 15
+    Warning (13410): Pin "HEX5[4]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 15
+    Warning (13410): Pin "HEX5[5]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 15
+    Warning (13410): Pin "HEX5[6]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 15
+    Warning (13410): Pin "LED[0]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 17
+    Warning (13410): Pin "LED[1]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 17
+    Warning (13410): Pin "LED[2]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 17
+    Warning (13410): Pin "LED[3]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 17
+    Warning (13410): Pin "LED[4]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 17
+    Warning (13410): Pin "LED[5]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 17
+    Warning (13410): Pin "LED[6]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 17
+    Warning (13410): Pin "LED[7]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 17
+    Warning (13410): Pin "LED[8]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 17
+    Warning (13410): Pin "LED[9]" is stuck at GND File: C:/Projects/VUmetarPFE/VUmeter.v Line: 17
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 2 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "CLOCK_50" File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 3
-    Warning (15610): No output dependent on input pin "ADC_DOUT" File: C:/Users/tadij/OneDrive/Desktop/VUmetar/VUmeter.v Line: 7
+    Warning (15610): No output dependent on input pin "CLOCK_50" File: C:/Projects/VUmetarPFE/VUmeter.v Line: 3
+    Warning (15610): No output dependent on input pin "ADC_DOUT" File: C:/Projects/VUmetarPFE/VUmeter.v Line: 7
 Info (21057): Implemented 57 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 55 output pins
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 71 warnings
-    Info: Peak virtual memory: 4818 megabytes
-    Info: Processing ended: Wed Mar 29 09:51:13 2023
-    Info: Elapsed time: 00:00:06
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 70 warnings
+    Info: Peak virtual memory: 4813 megabytes
+    Info: Processing ended: Wed Mar 29 23:56:40 2023
+    Info: Elapsed time: 00:00:07
     Info: Total CPU time (on all processors): 00:00:07
 
 
